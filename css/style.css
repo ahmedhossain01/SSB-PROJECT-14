@@ -1,0 +1,74 @@
+/*font dwn link*/
+@font-face{
+	src: url(../fonts/nunito-regular.ttf);
+	font-family: nunito-regular;
+}
+@font-face{
+	src: url(../fonts/nunito-bold.ttf);
+	font-family: nunito-bold;
+}
+@font-face{
+	src: url(..fonts/nunito-italic.ttf);
+	font-family: nunito-italic;
+}
+
+
+body{
+	margin: 0; 
+	font-family: nunito-regular;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+}
+.mmm{
+	padding-top: 200px;
+}
+.container{
+	margin: 0 auto;
+	width: 60%;
+/*	border: 1px solid red;*/
+}
+.vvv{
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+.hhh{
+	margin-left: 27px;
+}
+.kkk{
+	padding-top: 10px;
+	font-weight: 700;
+}
+.item{
+	margin-left: 25px;
+    padding-left: 10px;
+    padding-top: 10px;
+	height: 280px; 
+	width: 22%;
+	display: inline-block;
+	border-radius: 12px;
+}
+.bold{
+	font-weight: 700;
+}
+.bbb{
+    margin-top: -17px;
+    margin-bottom: 10px;
+}
+span{
+	font-weight: 700;
+}
+.bi{
+	font-size: 100px;
+	margin-left: 5px;
+}
+.item:first-child{
+	margin-left: 0;
+}
+.item:nth-child(odd){
+	background-color: #DE3163;
+	color: white;
+}
+.item:nth-child(even){
+	background-color: #6495ED;
+}
